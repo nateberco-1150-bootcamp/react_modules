@@ -1,13 +1,24 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import Header from './components/site/Header'
+import Footer from './components/site/Footer'
+import Sidebar from './components/site/Sidebar'
+import {
+  BrowserRouter as Router, //this is how you change the name of imports FYI
+} from 'react-router-dom'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      test
+    <div>
+      <Header />
+      <Router> 
+        <Sidebar />
+      </Router>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default App;
