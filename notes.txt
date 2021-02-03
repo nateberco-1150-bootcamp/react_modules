@@ -1,3 +1,4 @@
-LEFT OFF @...... 5.2
+LEFT OFF @...... PROPs 6.6 PropTypes-2
+
 
 
